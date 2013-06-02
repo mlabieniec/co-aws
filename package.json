@@ -1,0 +1,26 @@
+{
+    "name": "co-aws",
+    "description": "AWS extenstion for CompoundJS",
+    "version": "0.0.1-1",
+    "author": {
+        "name": "Michael Labieniec"
+    },
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "devDependencies": {
+        "mocha": "1.8.1",
+        "should": "1.2.2",
+        "semicov": "0.1.1",
+        "compound": "1.1.5-14",
+        "ejs": "0.8.3"
+    },
+    "dependencies": {
+        "aws-sdk": "~1.1.0"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "readmeFilename": "README.md"
+}
